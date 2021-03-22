@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="242dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="BMI 计算器"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_bmi"
+        android:layout_width="310dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/btn_bmi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/tv_bmi"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="436dp"
+        android:text="@string/tv_bmi"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_zd"
+        android:layout_width="213dp"
+        android:layout_height="39dp"
+        android:text="@string/tv_zd"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <EditText
+        android:id="@+id/et_wight"
+        android:layout_width="359dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/et_wight"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/et_hight"
+        android:layout_width="359dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/et_hight"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_wight"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="69dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="14dp"
+        android:text="性别："
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_hight" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="246dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_hight">
+
+        <RadioButton
+            android:id="@+id/rb_nan"
+            android:layout_width="114dp"
+            android:layout_height="39dp"
+            android:text="@string/rb_nan" />
+
+        <RadioButton
+            android:id="@+id/rb_nv"
+            android:layout_width="101dp"
+            android:layout_height="39dp"
+            android:text="@string/rb_nv" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

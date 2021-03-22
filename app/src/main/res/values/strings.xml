@@ -1,7 +1,15 @@
 <resources>
     <string name="app_name">App</string>
-    <string name="todo">TODO</string>
     <string name="btn">登录</string>
     <string name="txt1">请输入账号</string>
     <string name="txt2">请输入密码</string>
+    <string name="xl">你好，xl</string>
+    <string name="todo">TODO</string>
+    <string name="btn_bmi">计 算</string>
+    <string name="et_wight">输入体重，单位公斤</string>
+    <string name="et_hight">输入身高，单位米</string>
+    <string name="rb_nan">男</string>
+    <string name="rb_nv">女</string>
+    <string name="tv_bmi">BMI：</string>
+    <string name="tv_zd">诊断：</string>
 </resources>
