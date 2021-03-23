@@ -59,7 +59,7 @@
         android:layout_margin="1dp"
         android:background="#ffffff"
         android:gravity="center"
-        android:text="X"
+        android:text="*"
         android:textColor="@android:color/black"
         android:textSize="28sp" />
 
@@ -115,7 +115,7 @@
     <Button
         app:backgroundTint="#FFFFFF"
         android:layout_marginBottom="-11dp"
-        android:id="@+id/btn_c"
+        android:id="@+id/btn_del"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"
@@ -163,7 +163,7 @@
     <Button
         app:backgroundTint="#FFFFFF"
         android:layout_marginBottom="-11dp"
-        android:id="@+id/btn_c"
+        android:id="@+id/btn_add"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_margin="1dp"

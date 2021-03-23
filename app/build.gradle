@@ -29,9 +29,6 @@ android {
 }
 
 dependencies {
-
-//    implementation 'com.googlecode.aviator:aviator:4.2.10'
-
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
@@ -39,4 +36,11 @@ dependencies {
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+// https://mvnrepository.com/artifact/com.googlecode.aviator/aviator
+//    implementation group: 'com.googlecode.aviator', name: 'aviator', version: '3.3.0'
+
+    // https://mvnrepository.com/artifact/com.googlecode.aviator/aviator
+    implementation group: 'com.googlecode.aviator', name: 'aviator', version: '2.2.1'
+
 }
