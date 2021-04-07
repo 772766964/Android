@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@color/t_blue">
+
+        <ImageView
+            android:src="@drawable/head"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+        <ImageButton
+            android:background="@color/t_blue"
+            android:scaleType="centerInside"
+            android:id="@+id/phone"
+            android:src="@drawable/phone"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="260dp"
+            android:layout_gravity="center_vertical|right" />
+
+        <ImageButton
+            android:background="@color/t_blue"
+            android:scaleType="centerInside"
+            android:id="@+id/add"
+            android:src="@drawable/add"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="11dp"
+            android:layout_gravity="center_vertical|right" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/b_blue"
+        android:layout_marginTop="-80dp"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp">
+
+        <ImageButton
+            android:scaleType="centerInside"
+            android:background="@color/b_blue"
+            android:src="@drawable/head"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageButton
+            android:scaleType="centerInside"
+            android:background="@color/b_blue"
+            android:src="@drawable/head"
+            android:layout_marginLeft="89dp"
+            android:layout_gravity="center_vertical|center"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageButton
+            android:scaleType="centerInside"
+            android:background="@color/b_blue"
+            android:src="@drawable/head"
+            android:layout_marginLeft="87dp"
+            android:layout_gravity="center_vertical|center"
+            android:foregroundGravity="right"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>
